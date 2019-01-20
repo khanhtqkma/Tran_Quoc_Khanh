@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding:0;
+}
+@font-face{
+	src:url("font/Lato-Light.ttf");
+}
+*{
+	font-family: latoLight;
+}
+.header{
+	background-color:transparent !important;
+	border-bottom: 1px solid grey;
+}
+.logo {
+	padding-top: 6px;
+}
+.logo span {
+	color: #FF0000;
+}
+.menu{
+	margin-right:0 auto;
+}
+.menu li {
+	padding-left: 30px;
+	padding-top: 10px;
+}
+.menu-header:hover{
+	color: #FF0000 !important
+}
+/*start txt*/
+.txt{
+	text-align: center;
+	padding: 30px 0;
+}
+.txtContent{
+	margin: 0 auto
+}
+/*tab*/
+.tab-wrapper ul{
+	text-align: center;
+}
+.tab-wrapper ul li{
+	display: inline-block;
+	border: 1px solid #8080807d;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 10px
+}
+.tab-wrapper ul li.active{
+	background: #ea5231;
+}
+.tab-wrapper ul li.active a{
+	color: white;
+}
+.tab-wrapper ul li a{
+	color: black;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.tab-content{
+	padding: 20px;
+}
+.tab-item{
+	display: none;
+}
+/*img*/
+.after-user{
+	position: relative;
+	width: 111%;
+    height: 220px;
+    background: #ea5231;
+    margin-bottom: 3px
+}
+.after-user-txt{
+	padding: 20px;
+	color: white;
+}
+.front-user {
+    width: 100%;
+    height: 220px;
+    position: absolute;
+	backface-visibility: hidden;	
+	transition: 0.5s;
+	transform: rotateY(0deg);
+	z-index: 1;
+}
+.front-user img{
+	width: 99%;
+	 height: 220px;
+}
+
+ .front-user:hover{
+	transform: rotateY(-180deg);
+}
+@media (min-width: 481px) and (max-width: 574px){
+	.after-user{
+		width: 106%;
+	}
+	.front-user img{
+	width: 98%;
+}
+}
+@media(max-width: 575px){
+	.front-user img{
+	width: 99%;
+}
+	.after-user{
+		width: 105%;
+	}
+}
+@media(max-width: 481px){
+		.after-user{
+		width: 107%;
+	}
+}
+/*contact*/
+.contact{
+	background-color: #292929;
+	color: white;
+	padding-top: 20px
+}
+.contact h4{
+	padding:30px 0;
+}
+.line{
+	margin-bottom: 30px
+}
+.line p{
+	border-bottom: 1px solid white;
+	padding-bottom: 20px
+}
+.iconFooter{
+	float: left;
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    background: black;
+    margin-right: 10px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 30px	
+}
+/*footer*/
+.footer{
+	background-color: black;
+	color: white;
+	padding-top:20px;
+	font-size: 14px
+}
+.footer li{
+	list-style: none;
+	display: inline;
+	padding-right: 15px 
+}
+.footer li:nth-child(5){
+	padding-right: 0 !important
+}s
