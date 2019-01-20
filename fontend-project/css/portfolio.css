@@ -16,7 +16,7 @@
 	padding-top: 6px;
 }
 .logo span {
-	color: #FF0000;
+	color: red;
 }
 .menu{
 	margin-right:0 auto;
@@ -26,7 +26,7 @@
 	padding-top: 10px;
 }
 .menu-header:hover{
-	color: #FF0000 !important
+	color: #black !important
 }
 /*start txt*/
 .txt{
@@ -51,7 +51,7 @@
 	background: #ea5231;
 }
 .tab-wrapper ul li.active a{
-	color: white;
+	color: pink;
 }
 .tab-wrapper ul li a{
 	color: black;
@@ -127,7 +127,7 @@
 	margin-bottom: 30px
 }
 .line p{
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid black;
 	padding-bottom: 20px
 }
 .iconFooter{
@@ -135,7 +135,7 @@
     list-style: none;
     width: 30px;
     height: 30px;
-    background: black;
+    background: red;
     margin-right: 10px;
     border-radius: 100%;
     text-align: center;
